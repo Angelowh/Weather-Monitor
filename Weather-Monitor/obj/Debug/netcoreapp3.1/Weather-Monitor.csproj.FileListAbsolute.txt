@@ -1,0 +1,19 @@
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.exe
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.deps.json
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.runtimeconfig.json
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.runtimeconfig.dev.json
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.dll
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.pdb
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csprojAssemblyReference.cache
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Form1 - Cópia.resources
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Form1.resources
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Properties.Resources.resources
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csproj.GenerateResource.cache
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.AssemblyInfo.cs
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.dll
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.pdb
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.genruntimeconfig.cache
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csproj.CopyComplete

@@ -1,0 +1,12 @@
+Dashboard:
+https://openweathermap.org/current
+https://home.openweathermap.org/api_keys
+
+Icons-model:
+https://www.flaticon.com/free-icon/weather_678310?term=weather&page=1&position=32&page=1&position=32&related_id=678310&origin=search
+https://dev.to/mariorodeghiero/weather-app-built-in-pure-javascript-2n9
+
+
+Weather - ASPNET.Core
+https://www.youtube.com/watch?v=P8QtHXmCpCc
+https://www.youtube.com/watch?v=puniWMgENfA
