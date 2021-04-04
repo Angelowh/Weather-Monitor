@@ -5,7 +5,6 @@ C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netc
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.dll
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Weather-Monitor.pdb
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csprojAssemblyReference.cache
-C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Form1 - Cópia.resources
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Form1.resources
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Properties.Resources.resources
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csproj.GenerateResource.cache

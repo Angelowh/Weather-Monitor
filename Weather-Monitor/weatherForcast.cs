@@ -15,15 +15,18 @@ namespace Weather_Monitor
         public string name { get; set; }
     }
 
-    public class weather
+   public class weather
     {
         public string main { get; set; }
         public string description { get; set; }
     }
-    
+
+
     public class main
     {
         public double temp { get; set; }
+        public double temp_min { get; set; }
+        public double temp_max { get; set; }
     }
 
     public class wind

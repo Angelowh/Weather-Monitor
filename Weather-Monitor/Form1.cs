@@ -19,15 +19,15 @@ namespace Weather_Monitor
         public Form1()
         {
             InitializeComponent();
-            getWeather("Paraipaba");
-            getForcast("Paraipaba");
+            getWeather("Itaquaquecetuba");
+            getForcast("Itaquaquecetuba");
         }
 
         void getWeather(string city)
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6&lang=pt_br", city, APPID);
+                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&lang=pt_br", city, APPID);
 
                 var json = web.DownloadString(url);
 
@@ -38,14 +38,17 @@ namespace Weather_Monitor
                 lbl_cityName.Text = string.Format("{0}", outPut.name);
                 lbl_country.Text = string.Format("{0}", outPut.sys.country);
                 lbl_temp.Text = string.Format("{0} \u00B0" + "C", outPut.main.temp);
+                lbl_day.Text = string.Format("{0}", getDate(outPut.dt).DayOfWeek);
+                lbl_wind.Text = string.Format("Vento: {0} km/h", outPut.wind.speed);
+                lbl_humil.Text = string.Format("Umidade: {0} %", outPut.main.humidity);
 
             }
         }
 
         void getForcast(string city)
         {
-            int day = 5;
-            string url = string.Format("http://api.openweathermap.org/data/2.5/forecast?q={0}&cnt={1}&units=metric&lang=pt_br&appid={2}", city, day, APPID);
+            int day = 5 ;
+            string url = string.Format("http://api.openweathermap.org/data/2.5/forecast?q={0}&cnt={1}&units=metric&appid={2}", city, day, APPID);
             using (WebClient web = new WebClient())
             {
                 var json = web.DownloadString(url);
@@ -53,11 +56,32 @@ namespace Weather_Monitor
 
                 weatherForcast forcast = Object;
 
-                lbl_day_2.Text = string.Format("{0}", getDate(forcast.list[1].dt).DayOfWeek);
-                lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main);
+                lbl_day_2.Text = string.Format("{0}", getDate(forcast.list[1].dt).TimeOfDay);
+                lbl_day_3.Text = string.Format("{0}", getDate(forcast.list[2].dt).TimeOfDay);
+                lbl_day_4.Text = string.Format("{0}", getDate(forcast.list[3].dt).TimeOfDay);
+                lbl_day_5.Text = string.Format("{0}", getDate(forcast.list[4].dt).TimeOfDay);
+
+                lbl_min_2.Text = string.Format("{0}\u00B0" + "C", forcast.list[1].main.temp_min);
+                lbl_min_3.Text = string.Format("{0}\u00B0" + "C", forcast.list[2].main.temp_min);
+                lbl_min_4.Text = string.Format("{0}\u00B0" + "C", forcast.list[3].main.temp_min);
+                lbl_min_5.Text = string.Format("{0}\u00B0" + "C", forcast.list[4].main.temp_min);
+
+                lbl_max_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
+                lbl_max_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
+                lbl_max_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
+                lbl_max_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
+                
+                /*lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main);
                 lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description);
                 lbl_temp_2.Text = string.Format("{0}\u00B0" + "C", forcast.list[1].main.temp);
                 lbl_wind_2.Text = string.Format("{0} km/h", forcast.list[1].wind.speed);
+
+                lbl_day_3.Text = string.Format("{0}", getDate(forcast.list[2].dt).DayOfWeek);
+                lbl_cond_3.Text = string.Format("{0}", forcast.list[2].weather[0].main);
+                lbl_des_3.Text = string.Format("{0}", forcast.list[2].weather[0].description);
+                lbl_temp_3.Text = string.Format("{0}\u00B0" + "C", forcast.list[2].main.temp);
+                lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[2].wind.speed);*/
+
             }
         }
 
@@ -68,6 +92,28 @@ namespace Weather_Monitor
             day = day.AddSeconds(millisecound).ToLocalTime();
 
             return day;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        private void Form1_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
         }
 
     }
