@@ -19,8 +19,8 @@ namespace Weather_Monitor
         public Form1()
         {
             InitializeComponent();
-            getWeather("Itaquaquecetuba");
-            getForcast("Itaquaquecetuba");
+            getWeather("Paraipaba");
+            getForcast("Paraipaba");
         }
 
         void getWeather(string city)
@@ -39,8 +39,8 @@ namespace Weather_Monitor
                 lbl_country.Text = string.Format("{0}", outPut.sys.country);
                 lbl_temp.Text = string.Format("{0} \u00B0" + "C", outPut.main.temp);
                 lbl_day.Text = string.Format("{0}", getDate(outPut.dt).DayOfWeek);
-                lbl_wind.Text = string.Format("Vento: {0} km/h", outPut.wind.speed);
-                lbl_humil.Text = string.Format("Umidade: {0} %", outPut.main.humidity);
+                lbl_wind.Text = string.Format("Wind: {0} km/h", outPut.wind.speed);
+                lbl_humil.Text = string.Format("Humidity: {0} %", outPut.main.humidity);
 
             }
         }
@@ -61,10 +61,10 @@ namespace Weather_Monitor
                 lbl_day_4.Text = string.Format("{0}", getDate(forcast.list[3].dt).TimeOfDay);
                 lbl_day_5.Text = string.Format("{0}", getDate(forcast.list[4].dt).TimeOfDay);
 
-                lbl_min_2.Text = string.Format("{0}\u00B0" + "C", forcast.list[1].main.temp_min);
-                lbl_min_3.Text = string.Format("{0}\u00B0" + "C", forcast.list[2].main.temp_min);
-                lbl_min_4.Text = string.Format("{0}\u00B0" + "C", forcast.list[3].main.temp_min);
-                lbl_min_5.Text = string.Format("{0}\u00B0" + "C", forcast.list[4].main.temp_min);
+                lbl_min_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_min);
+                lbl_min_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].main.temp_min);
+                lbl_min_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[3].main.temp_min);
+                lbl_min_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[4].main.temp_min);
 
                 lbl_max_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
                 lbl_max_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
@@ -116,5 +116,9 @@ namespace Weather_Monitor
             }
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
