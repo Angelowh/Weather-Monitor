@@ -15,33 +15,53 @@ namespace Weather_Monitor
     public partial class Form1 : Form
     {
         const string APPID = "cc530447ac61ef046f838eaafc3407c2";
-        string cityName = "Colombo";
+        string cityName = "Paraipaba";
         public Form1()
         {
             InitializeComponent();
-            getWeather("Paraipaba");
-            getForcast("Paraipaba");
+            getWeather(cityName);
+            getForcast(cityName);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (txt_cityName.Text != null && txt_cityName.Text != "")
+            {
+                cityName = txt_cityName.Text;
+                getWeather(cityName);
+                getForcast(cityName);
+            }
+            else
+            {
+                MessageBox.Show("Erro ao localizar a cidade", "Digite uma cidade", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         void getWeather(string city)
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&lang=pt_br", city, APPID);
+                try
+                {
+                    string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&lang=pt_br", city, APPID);
 
-                var json = web.DownloadString(url);
+                    var json = web.DownloadString(url);
 
-                var result = JsonConvert.DeserializeObject<WeatherInfo.root>(json);
+                    var result = JsonConvert.DeserializeObject<WeatherInfo.root>(json);
 
-                WeatherInfo.root outPut = result;
+                    WeatherInfo.root outPut = result;
 
-                lbl_cityName.Text = string.Format("{0}", outPut.name);
-                lbl_country.Text = string.Format("{0}", outPut.sys.country);
-                lbl_temp.Text = string.Format("{0} \u00B0" + "C", outPut.main.temp);
-                lbl_day.Text = string.Format("{0}", getDate(outPut.dt).DayOfWeek);
-                lbl_wind.Text = string.Format("Wind: {0} km/h", outPut.wind.speed);
-                lbl_humil.Text = string.Format("Humidity: {0} %", outPut.main.humidity);
-
+                    lbl_cityName.Text = string.Format("{0}", outPut.name);
+                    lbl_country.Text = string.Format("{0}", outPut.sys.country);
+                    lbl_temp.Text = string.Format("{0} \u00B0" + "C", outPut.main.temp);
+                    lbl_day.Text = string.Format("{0}", getDate(outPut.dt).DayOfWeek);
+                    lbl_wind.Text = string.Format("Wind: {0} km/h", outPut.wind.speed);
+                    lbl_humil.Text = string.Format("Humidity: {0} %", outPut.main.humidity);
+                }
+                catch
+                {
+                    MessageBox.Show("Erro ao localizar a cidade", "Digite uma cidade", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -114,11 +134,6 @@ namespace Weather_Monitor
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

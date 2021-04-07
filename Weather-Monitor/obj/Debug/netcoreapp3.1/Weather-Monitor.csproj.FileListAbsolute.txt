@@ -16,3 +16,4 @@ C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netc
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.genruntimeconfig.cache
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather-Monitor.csproj.CopyComplete
+C:\Users\PICHAU\Documents\C#\Neto\Weather-Monitor\Weather-Monitor\obj\Debug\netcoreapp3.1\Weather_Monitor.Form1 - Cópia.resources

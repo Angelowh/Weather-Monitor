@@ -1,6 +1,7 @@
 Dashboard:
 https://openweathermap.org/current
 https://home.openweathermap.org/api_keys
+https://openweathermap.org/api/one-call-api
 
 Icons-model:
 https://www.flaticon.com/free-icon/weather_678310?term=weather&page=1&position=32&page=1&position=32&related_id=678310&origin=search
