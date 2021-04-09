@@ -3,6 +3,10 @@ https://openweathermap.org/current
 https://home.openweathermap.org/api_keys
 https://openweathermap.org/api/one-call-api
 
+GeoLocation:
+https://docs.microsoft.com/en-us/dotnet/api/system.device.location.geocoordinatewatcher?view=netframework-4.8
+https://ipinfo.io/account/home
+
 Icons-model:
 https://www.flaticon.com/free-icon/weather_678310?term=weather&page=1&position=32&page=1&position=32&related_id=678310&origin=search
 https://dev.to/mariorodeghiero/weather-app-built-in-pure-javascript-2n9

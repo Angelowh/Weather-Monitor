@@ -32,8 +32,6 @@ namespace Weather_Monitor
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_max_5 = new System.Windows.Forms.Label();
             this.lbl_max_4 = new System.Windows.Forms.Label();
@@ -62,6 +60,7 @@ namespace Weather_Monitor
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.lbl_ip = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -90,33 +89,9 @@ namespace Weather_Monitor
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(424, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 37);
+            this.label1.Size = new System.Drawing.Size(153, 37);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Bem-vindo ao";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(675, 89);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 37);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "App";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.LawnGreen;
-            this.label2.Location = new System.Drawing.Point(599, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 37);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Clima";
+            this.label1.Text = "Bem-vindo,";
             // 
             // panel2
             // 
@@ -468,6 +443,18 @@ namespace Weather_Monitor
             this.label5.TabIndex = 25;
             this.label5.Text = "Clima";
             // 
+            // lbl_ip
+            // 
+            this.lbl_ip.AutoSize = true;
+            this.lbl_ip.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ip.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_ip.ForeColor = System.Drawing.Color.LawnGreen;
+            this.lbl_ip.Location = new System.Drawing.Point(571, 89);
+            this.lbl_ip.Name = "lbl_ip";
+            this.lbl_ip.Size = new System.Drawing.Size(39, 37);
+            this.lbl_ip.TabIndex = 25;
+            this.lbl_ip.Text = "IP";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -475,10 +462,9 @@ namespace Weather_Monitor
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1113, 684);
+            this.Controls.Add(this.lbl_ip);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -500,8 +486,6 @@ namespace Weather_Monitor
         #endregion
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_wind_2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbl_max_5;
@@ -532,6 +516,7 @@ namespace Weather_Monitor
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txt_cityName;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lbl_ip;
     }
 }
 
