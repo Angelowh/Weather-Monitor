@@ -131,9 +131,9 @@ namespace Weather_Monitor
             this.lbl_max_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_max_5.Location = new System.Drawing.Point(590, 432);
             this.lbl_max_5.Name = "lbl_max_5";
-            this.lbl_max_5.Size = new System.Drawing.Size(77, 32);
+            this.lbl_max_5.Size = new System.Drawing.Size(72, 32);
             this.lbl_max_5.TabIndex = 23;
-            this.lbl_max_5.Text = "Date2";
+            this.lbl_max_5.Text = "Max5";
             // 
             // lbl_max_4
             // 
@@ -143,9 +143,9 @@ namespace Weather_Monitor
             this.lbl_max_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_max_4.Location = new System.Drawing.Point(437, 432);
             this.lbl_max_4.Name = "lbl_max_4";
-            this.lbl_max_4.Size = new System.Drawing.Size(77, 32);
+            this.lbl_max_4.Size = new System.Drawing.Size(72, 32);
             this.lbl_max_4.TabIndex = 22;
-            this.lbl_max_4.Text = "Date2";
+            this.lbl_max_4.Text = "Max4";
             // 
             // lbl_max_3
             // 
@@ -155,9 +155,9 @@ namespace Weather_Monitor
             this.lbl_max_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_max_3.Location = new System.Drawing.Point(289, 432);
             this.lbl_max_3.Name = "lbl_max_3";
-            this.lbl_max_3.Size = new System.Drawing.Size(77, 32);
+            this.lbl_max_3.Size = new System.Drawing.Size(72, 32);
             this.lbl_max_3.TabIndex = 21;
-            this.lbl_max_3.Text = "Date2";
+            this.lbl_max_3.Text = "Max3";
             // 
             // lbl_max_2
             // 
@@ -167,9 +167,9 @@ namespace Weather_Monitor
             this.lbl_max_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_max_2.Location = new System.Drawing.Point(153, 432);
             this.lbl_max_2.Name = "lbl_max_2";
-            this.lbl_max_2.Size = new System.Drawing.Size(77, 32);
+            this.lbl_max_2.Size = new System.Drawing.Size(72, 32);
             this.lbl_max_2.TabIndex = 20;
-            this.lbl_max_2.Text = "Date2";
+            this.lbl_max_2.Text = "Max2";
             // 
             // lbl_min_5
             // 
@@ -179,9 +179,9 @@ namespace Weather_Monitor
             this.lbl_min_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_min_5.Location = new System.Drawing.Point(590, 364);
             this.lbl_min_5.Name = "lbl_min_5";
-            this.lbl_min_5.Size = new System.Drawing.Size(77, 32);
+            this.lbl_min_5.Size = new System.Drawing.Size(69, 32);
             this.lbl_min_5.TabIndex = 18;
-            this.lbl_min_5.Text = "Date2";
+            this.lbl_min_5.Text = "Min5";
             // 
             // lbl_min_4
             // 
@@ -191,9 +191,9 @@ namespace Weather_Monitor
             this.lbl_min_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_min_4.Location = new System.Drawing.Point(442, 364);
             this.lbl_min_4.Name = "lbl_min_4";
-            this.lbl_min_4.Size = new System.Drawing.Size(77, 32);
+            this.lbl_min_4.Size = new System.Drawing.Size(69, 32);
             this.lbl_min_4.TabIndex = 17;
-            this.lbl_min_4.Text = "Date2";
+            this.lbl_min_4.Text = "Min4";
             // 
             // lbl_min_3
             // 
@@ -203,9 +203,9 @@ namespace Weather_Monitor
             this.lbl_min_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_min_3.Location = new System.Drawing.Point(289, 364);
             this.lbl_min_3.Name = "lbl_min_3";
-            this.lbl_min_3.Size = new System.Drawing.Size(77, 32);
+            this.lbl_min_3.Size = new System.Drawing.Size(69, 32);
             this.lbl_min_3.TabIndex = 16;
-            this.lbl_min_3.Text = "Date2";
+            this.lbl_min_3.Text = "Min3";
             // 
             // lbl_min_2
             // 
@@ -215,9 +215,9 @@ namespace Weather_Monitor
             this.lbl_min_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_min_2.Location = new System.Drawing.Point(153, 364);
             this.lbl_min_2.Name = "lbl_min_2";
-            this.lbl_min_2.Size = new System.Drawing.Size(77, 32);
+            this.lbl_min_2.Size = new System.Drawing.Size(69, 32);
             this.lbl_min_2.TabIndex = 15;
-            this.lbl_min_2.Text = "Date2";
+            this.lbl_min_2.Text = "Min2";
             // 
             // lbl_day_5
             // 
@@ -452,9 +452,9 @@ namespace Weather_Monitor
             this.lbl_ip.ForeColor = System.Drawing.Color.LawnGreen;
             this.lbl_ip.Location = new System.Drawing.Point(526, 85);
             this.lbl_ip.Name = "lbl_ip";
-            this.lbl_ip.Size = new System.Drawing.Size(185, 37);
+            this.lbl_ip.Size = new System.Drawing.Size(39, 37);
             this.lbl_ip.TabIndex = 25;
-            this.lbl_ip.Text = "170.84.142.11";
+            this.lbl_ip.Text = "IP";
             // 
             // panel3
             // 
@@ -479,7 +479,6 @@ namespace Weather_Monitor
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel2.ResumeLayout(false);

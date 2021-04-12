@@ -113,17 +113,6 @@ namespace Weather_Monitor
                 lbl_max_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
                 lbl_max_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
                 lbl_max_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp_max);
-                
-                /*lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main);
-                lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description);
-                lbl_temp_2.Text = string.Format("{0}\u00B0" + "C", forcast.list[1].main.temp);
-                lbl_wind_2.Text = string.Format("{0} km/h", forcast.list[1].wind.speed);
-
-                lbl_day_3.Text = string.Format("{0}", getDate(forcast.list[2].dt).DayOfWeek);
-                lbl_cond_3.Text = string.Format("{0}", forcast.list[2].weather[0].main);
-                lbl_des_3.Text = string.Format("{0}", forcast.list[2].weather[0].description);
-                lbl_temp_3.Text = string.Format("{0}\u00B0" + "C", forcast.list[2].main.temp);
-                lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[2].wind.speed);*/
 
             }
         }
@@ -157,11 +146,6 @@ namespace Weather_Monitor
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
