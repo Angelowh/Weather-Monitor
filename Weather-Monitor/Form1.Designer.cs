@@ -61,6 +61,7 @@ namespace Weather_Monitor
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbl_ip = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -87,7 +88,7 @@ namespace Weather_Monitor
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(424, 89);
+            this.label1.Location = new System.Drawing.Point(379, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 37);
             this.label1.TabIndex = 19;
@@ -117,7 +118,7 @@ namespace Weather_Monitor
             this.panel2.Controls.Add(this.lbl_cityName);
             this.panel2.Controls.Add(this.lbl_country);
             this.panel2.Controls.Add(this.lbl_temp);
-            this.panel2.Location = new System.Drawing.Point(166, 191);
+            this.panel2.Location = new System.Drawing.Point(166, 180);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(806, 492);
             this.panel2.TabIndex = 23;
@@ -449,11 +450,19 @@ namespace Weather_Monitor
             this.lbl_ip.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ip.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_ip.ForeColor = System.Drawing.Color.LawnGreen;
-            this.lbl_ip.Location = new System.Drawing.Point(571, 89);
+            this.lbl_ip.Location = new System.Drawing.Point(526, 85);
             this.lbl_ip.Name = "lbl_ip";
-            this.lbl_ip.Size = new System.Drawing.Size(39, 37);
+            this.lbl_ip.Size = new System.Drawing.Size(185, 37);
             this.lbl_ip.TabIndex = 25;
-            this.lbl_ip.Text = "IP";
+            this.lbl_ip.Text = "170.84.142.11";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.LawnGreen;
+            this.panel3.Location = new System.Drawing.Point(355, 136);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(369, 3);
+            this.panel3.TabIndex = 26;
             // 
             // Form1
             // 
@@ -462,6 +471,7 @@ namespace Weather_Monitor
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1113, 684);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.lbl_ip);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -469,6 +479,7 @@ namespace Weather_Monitor
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -517,6 +528,7 @@ namespace Weather_Monitor
         private System.Windows.Forms.TextBox txt_cityName;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lbl_ip;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
