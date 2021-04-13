@@ -3,7 +3,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Sobre](#sobre)
    * [Como usar](#como-usar)
       * [Geolocalização](#geolocation)
       * [Pesquisa](#search)
@@ -11,3 +11,7 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
    * [Como instalar](#install)
 <!--te-->
+
+<h4 align="center"> 
+	App desktop de previsão de tempo feita em C#
+</h4>
