@@ -1,9 +1,10 @@
 # ☂️ Weather-Monitor ☁️
 
+<h2 align="center" class="#sobre">App desktop de previsão de tempo feita em C#</h4>
+
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#sobre)
    * [Como usar](#como-usar)
       * [Geolocalização](#geolocation)
       * [Pesquisa](#search)
@@ -11,5 +12,3 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
    * [Como instalar](#install)
 <!--te-->
-
-<h2 align="center" class="#sobre">App desktop de previsão de tempo feita em C#</h4>
