@@ -12,6 +12,4 @@ Tabela de conteúdos
    * [Como instalar](#install)
 <!--te-->
 
-<h4 align="center"> 
-	App desktop de previsão de tempo feita em C#
-</h4>
+<h4 align="center" class="#sobre">App desktop de previsão de tempo feita em C#</h4>
