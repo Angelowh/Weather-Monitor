@@ -1,5 +1,5 @@
 # ☂️ Weather-Monitor ☁️
-<p align="center" class="#sobre">App desktop de previsão de tempo feita em C#</p>
+<p align="center">App desktop de previsão de tempo feita em C#</p>
 
 📌Tabela de conteúdos
 =================
