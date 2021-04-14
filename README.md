@@ -20,5 +20,4 @@
 <h3 class="geolocation">🗺️Geolocalização</h3>
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
   <p>Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
-![geolocation](https://user-images.githubusercontent.com/75538299/114717736-ba41af00-9d0b-11eb-919c-2c793cc18bf7.png)
 
