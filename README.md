@@ -13,3 +13,4 @@
 <!--te-->
 
 <h1 class="#sobre">📌Sobre</h1>
+<h2>Aplicativo de previsão de tempo desenvolvido em C# utlizando a api [OpenWearther](https://openweathermap.org/api)</h2>
