@@ -25,4 +25,4 @@
 
 <h3 class="#search">🔎Busca por outras localidades</h3>
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
-<img src"https://media.giphy.com/media/LPRe32N6BfpjvHOk8e/giphy.gif"></img>
+<img src"https://giphy.com/embed/LPRe32N6BfpjvHOk8e"></img>
