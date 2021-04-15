@@ -22,3 +22,7 @@
 <p>  Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
      
 <img src="prints-weather/geolocation.png"></img>
+
+<h3 class="#search">🔎Busca por outras localidades</h3>
+<p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
+<img href="https://media.giphy.com/media/LPRe32N6BfpjvHOk8e/giphy.gif"></img>
