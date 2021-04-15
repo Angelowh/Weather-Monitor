@@ -28,3 +28,4 @@
 ### 🔎Busca por outras localidades
 
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
+<img src="prints-weather/001.gif"></img>
