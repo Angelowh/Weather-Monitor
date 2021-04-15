@@ -13,17 +13,15 @@
    * [Autor](#autor)
 <!--te-->
 
-<h2 class="#sobre">📌Sobre</h2>
+##📌Sobre
 <h3>Aplicativo de previsão de tempo desenvolvido em C# utlizando a API da <a href="https://openweathermap.org/api">OpenWeather</a></h3>
 
-<h2 class="#como-usar">📌Como Usar</h2>
-<div class="#geolocation">
-<h3>🗺️Geolocalização</h3>
+<##📌Como Usar
+###🗺️Geolocalização
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
 <p>  Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
      
 <img src="prints-weather/geolocation.png"></img>
-</div>
 
-<h3 class="#search">🔎Busca por outras localidades</h3>
+###🔎Busca por outras localidades
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
