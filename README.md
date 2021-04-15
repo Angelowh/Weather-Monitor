@@ -18,7 +18,7 @@
 
 <h1 class="#como-usar">📌Como Usar</h1>
 <h3 class="geolocation">🗺️Geolocalização</h3>
-<p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),
-     Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
+<p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
+<p>  Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
      
 <img src="prints-weather/geolocation.png"></img>
