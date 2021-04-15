@@ -1,6 +1,6 @@
 # ☂️ Weather-Monitor ☁️
 
-<h2>📌Tabela de conteúdos</h2>
+📌Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#sobre)
