@@ -23,5 +23,6 @@
      
 <img src="prints-weather/geolocation.png"></img>
 
+
 <h3 class="#search">🔎Busca por outras localidades</h3>
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
