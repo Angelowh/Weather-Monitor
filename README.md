@@ -25,11 +25,10 @@
 
 ## 📌Como Usar
 
-
 ### ⛩️Geolocalização
 
-<p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
-<p>  Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
+<p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),
+Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
 <h1 align="center">    
 <img src="prints-weather/geolocation.png"></img>
 </h1>
@@ -55,8 +54,8 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 
 ## 🧰Como instalar
 
-<p>📁Basta apenas acessar <a href="https://drive.google.com/drive/folders/1J3GTXX7aN1cwRb6acWY0KAfGKzTELpYB?usp=sharing">este link</a> e baixar a pasta Clima App,</p>
-<p>Em seguida execute o arquivo Weather-Monitor.exe</p>
+<p>📁Basta apenas acessar <a href="https://drive.google.com/drive/folders/1J3GTXX7aN1cwRb6acWY0KAfGKzTELpYB?usp=sharing">este link</a> e baixar a pasta Clima App,
+Em seguida execute o arquivo Weather-Monitor.exe</p>
 
 ## ✍️Autor
 
