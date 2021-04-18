@@ -8,13 +8,13 @@
 =================
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
-      * [Geolocalização](https://github.com/Angelowh/Weather-Monitor#geolocalização)
+      * [Geolocalização](#Geolocalização)
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Funções](#funções)
-   * [Tecnologias](https://github.com/Angelowh/Weather-Monitor#tecnologias)
+   * [Tecnologias](#tecnologias)
    * [Como instalar](#como-instalar)
-   * [Autor](https://github.com/Angelowh/Weather-Monitor#autor)
+   * [Autor](#autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
 
