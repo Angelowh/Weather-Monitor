@@ -40,7 +40,7 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 <img src="prints-weather/gif-search.gif"></img>
 </h1>
 
-### ⌚Forcast🌡️
+### ⌚Forcast
 
 <p>✔️Previsão da temperatura mínima e máxima baseado num padrão de 3 horas de diferença entre cada uma.</p>
 <h1 align="center">
