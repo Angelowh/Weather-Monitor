@@ -34,9 +34,8 @@
 
 ### 🔎Acessando outras localidades
 
-<p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
-Assim atualizando informações de humidade, velocidade do vento e a 
-previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
+<p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.</p>
+<p>Assim atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <h1 align="center">
 <img src="prints-weather/gif-search.gif"></img>
 </h1>
