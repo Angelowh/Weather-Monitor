@@ -32,7 +32,8 @@
 <img src="prints-weather/geolocation.png"></img>
 </h1>
 
-### 🔎Busca por outras localidades
+### 🔎Acessando outras localidades
 
-<p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário</p>
+<p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
+Atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <img src="prints-weather/gif-search.gif"></img>
