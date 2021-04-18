@@ -4,7 +4,6 @@
 
 <h3>Aplicativo de previsão de tempo desenvolvido em C# utlizando a API da <a href="https://openweathermap.org/api">OpenWeather</a></h3>
 
-
 ## 📌Tabela de conteúdos
 =================
    * [Sobre](#sobre)
