@@ -8,13 +8,13 @@
 =================
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
-      * [Geolocalização](#-geolocalização)
+      * [Geolocalização](#geolocalização)
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Funções](#funções)
-   * [Tecnologias](#-tecnologias)
+   * [Tecnologias](#tecnologias)
    * [Como instalar](#como-instalar)
-   * [Autor](#-autor)
+   * [Autor](#autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
 
