@@ -12,9 +12,9 @@
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Funções](#funções)
-   * [Tecnologias](#tecnologias)
+   * [Tecnologias](https://github.com/Angelowh/Weather-Monitor#tecnologias)
    * [Como instalar](#como-instalar)
-   * [Autor](#autor)
+   * [Autor](https://github.com/Angelowh/Weather-Monitor#autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
 
