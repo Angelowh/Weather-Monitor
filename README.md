@@ -11,6 +11,13 @@
    * [Como instalar](#install)
    * [Autor](#autor)
 
+<h1 align="center">🚧Status: Concluido🚧</h1>
+
+## 📝Funções
+- [x] Geolocalização pelo IP
+- [x] Campo de busca por outras localidades
+- [x] Forcast de 3 em 3 horas
+
 ## 📌Sobre
 
 <h3>Aplicativo de previsão de tempo desenvolvido em C# utlizando a API da <a href="https://openweathermap.org/api">OpenWeather</a></h3>
