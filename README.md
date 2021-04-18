@@ -35,5 +35,9 @@
 ### 🔎Acessando outras localidades
 
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
-Atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
+Assim atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <img src="prints-weather/gif-search.gif"></img>
+
+### ⌚Forcast🌡️
+<p>✔️Previsão da temperatura mínima e máxima baseado num padrão de 3 horas de diferença entre cada uma.</p>
+<img src="prints-weather/forcast.png"></img>
