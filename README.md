@@ -8,7 +8,7 @@
 =================
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
-      * [Geolocalização](#geolocalizacao)
+      * [Geolocalização](#%EF%B8%8Fgeolocalizacao)
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Funções](#funções)
