@@ -59,5 +59,6 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 ## ✍️ Autor
 
 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/75538299?s=400&u=6b4c05cc5a8ffc1d43e1b16a44c244b62f1592df&v=4" width="100px;" alt=""/>
-<sub><b><h5>Pedro Angelo</h5></b></sub> 
+<sub><b><h4>Pedro Angelo</h4></b></sub> 
 
+[![Gmail Badge](https://img.shields.io/badge/-pedroroangelo2002@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pedroroangelo2002@gmail.com)](mailto:pedroroangelo2002@gmail.com)
