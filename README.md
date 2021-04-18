@@ -58,6 +58,6 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 
 ## ✍️ Autor
 
-<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/63157775?s=400&u=2f089fee42f3123d59ac7d6bdff2f384280514c7&v=4" width="100px;" alt=""/>
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/Angelowh" width="100px;" alt=""/>
 <sub><b><h5>Pedro Angelo</h5></b></sub> 
 
