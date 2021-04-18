@@ -25,6 +25,7 @@
 
 ## 📌Como Usar
 
+
 ### ⛩️Geolocalização
 
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
