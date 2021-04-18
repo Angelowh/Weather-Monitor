@@ -25,7 +25,7 @@
 
 ## 📌Como Usar
 
-### 🗺️Geolocalização
+### ⛩️Geolocalização
 
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),</p>
 <p>  Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
