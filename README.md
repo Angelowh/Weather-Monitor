@@ -11,9 +11,10 @@
       * [Geolocalização](#geolocalização)
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
+   * [Funções](#funções)
    * [Tecnologias](#tecnologias)
    * [Como instalar](#como-instalar)
-   * [Autor](#Autor)
+   * [Autor](#autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
 
