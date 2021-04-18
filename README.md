@@ -8,7 +8,7 @@
 =================
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
-      * [Geolocalização](https://github.com/Angelowh/Weather-Monitor/blob/monitor/README.md#geolocalização)
+      * [Geolocalização](#geolocalização)
       * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Funções](#funções)
