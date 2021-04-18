@@ -62,3 +62,4 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 <sub><b><h4>Pedro Angelo</h4></b></sub> 
 
 [![Gmail Badge](https://img.shields.io/badge/-pedroroangelo2002@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pedroroangelo2002@gmail.com)](mailto:pedroroangelo2002@gmail.com)
+[![Instagram Badge](https://img.shields.io/badge/-pedronetx_-c14438?style=flat-square&logo=Instagram&logoColor=white&link=mailtopedronetx_)](mailto:pedronetx_)
