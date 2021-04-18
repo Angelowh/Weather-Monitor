@@ -30,7 +30,7 @@
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),
 Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
 <h1 align="center">    
-<img src="prints-weather/geolocation.png"></img>
+<img src="prints-weather/geolocation-edit.jpg"></img>
 </h1>
 
 ### 🔎Acessando outras localidades
@@ -38,14 +38,14 @@ Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
 Assim atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <h1 align="center">
-<img src="prints-weather/gif-search.gif"></img>
+<img src="prints-weather/search-gif-edit.gif"></img>
 </h1>
 
 ### ⌚Forecast
 
 <p>✔️Previsão da temperatura mínima e máxima baseado num padrão de 3 horas de diferença entre cada uma.</p>
 <h1 align="center">
-<img src="prints-weather/forcast.png"></img>
+<img src="prints-weather/forcast-edit.jpg"></img>
 </h1>
 
 ## 🛠️Tecnologias
