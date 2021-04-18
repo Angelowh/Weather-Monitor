@@ -50,7 +50,7 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 
 ## 🛠️Tecnologias
 
-<img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/></img>
 
 ## 🧰Como instalar
 
