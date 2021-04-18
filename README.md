@@ -14,7 +14,7 @@
    * [Funções](#funções)
    * [Tecnologias](#tecnologias)
    * [Como instalar](#como-instalar)
-   * [Autor](#✍️Autor)
+   * [Autor](#Autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
 
