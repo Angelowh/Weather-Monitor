@@ -48,10 +48,16 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 </h1>
 
 ## 🛠️Tecnologias
+
 <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 
 ## 🧰Como instalar
+
 <p>📁Basta apenas acessar <a href="https://drive.google.com/drive/folders/1J3GTXX7aN1cwRb6acWY0KAfGKzTELpYB?usp=sharing">este link</a> e baixar a pasta Clima App,</p>
 <p>Em seguida execute o arquivo Weather-Monitor.exe</p>
 
+## ✍️ Autor
+
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/63157775?s=400&u=2f089fee42f3123d59ac7d6bdff2f384280514c7&v=4" width="100px;" alt=""/>
+<sub><b><h5>Pedro Angelo</h5></b></sub> 
 
