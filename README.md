@@ -11,8 +11,8 @@
       * [Geolocalização](#geolocation)
       * [Pesquisa](#search)
       * [Previsão de 3 em 3 horas](#forecast)
-   * [Tecnologias](#tecnologias)
-   * [Como instalar](#install)
+   * [Tecnologias](#Tecnologias)
+   * [Como instalar](#como-instalar)
    * [Autor](#autor)
 
 <h1 align="center">🚧Status: Concluido🚧</h1>
@@ -46,3 +46,12 @@ Assim atualizando informações de humidade, velocidade do vento e a previsão d
 <h1 align="center">
 <img src="prints-weather/forcast.png"></img>
 </h1>
+
+## 🛠️Tecnologias
+<img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
+
+## 🧰Como instalar
+<p>📁Basta apenas acessar <a href="https://drive.google.com/drive/folders/1J3GTXX7aN1cwRb6acWY0KAfGKzTELpYB?usp=sharing">este link</a> e baixar a pasta Clima App,
+Em seguida execute o arquivo Weather-Monitor.exe</p>
+
+
