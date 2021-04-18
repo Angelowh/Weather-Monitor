@@ -9,7 +9,7 @@
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
       * [Geolocalização](#geolocalização)
-      * [Pesquisa](#acessando outras localidades)
+      * [Pesquisa](#acessando-outras-localidades)
       * [Previsão de 3 em 3 horas](#forecast)
    * [Tecnologias](#tecnologias)
    * [Como instalar](#como-instalar)
