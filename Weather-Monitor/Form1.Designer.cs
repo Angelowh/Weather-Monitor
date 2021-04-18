@@ -496,7 +496,6 @@ namespace Weather_Monitor
         #endregion
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbl_wind_2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbl_max_5;
         private System.Windows.Forms.Label lbl_max_4;
@@ -514,7 +513,6 @@ namespace Weather_Monitor
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label lbl_humil;
         private System.Windows.Forms.Label lbl_wind;
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lbl_cityName;
         private System.Windows.Forms.Label lbl_country;
