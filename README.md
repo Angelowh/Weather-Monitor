@@ -38,12 +38,7 @@ Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
 Assim atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <h1 align="center">
-<video width="320" height="240" controls="controls" autoplay="autoplay">
-<source src="Yes Bank Advertisment.mp4" type="video/mp4">
-<object data="" width="320" height="240">
-<embed width="320" height="240" src="prints-weather/search.mp4">
-</object>
-</video>
+<video src="prints-weather/search.mp4"></video>
 </h1>
 
 ### ⌚Forecast
