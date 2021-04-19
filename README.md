@@ -38,7 +38,7 @@ Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.
 <p>✔️Barra de pesquisa para selecionar locais de interesse ao usuário podendo ser países, estados e cidades.
 Assim atualizando informações de humidade, velocidade do vento e a previsão de 3 em 3 horas ao selecionar a localidade em questão</p>
 <h1 align="center">
-<img src="prints-weather/search-gif-edit.gif"></img>
+<img src="prints-weather/ezgif.com-gif-maker.gif"></img>
 </h1>
 
 ### ⌚Forecast
