@@ -30,7 +30,7 @@
 <p>✔️Ao inicilizar a aplicação, esta calcula a posição do usuário a partir de eu número IP (IP Adress),
 Esta funcionalidade é feita com a manipulação da API <a href="https://ipinfo.io/">IPInfo</a></p>
 <h1 align="center">    
-<img src="prints-weather/geolocation-edit.jpg"></img>
+<img src="prints-weather/geolocation.jpg"></img>
 </h1>
 
 ### 🔎Acessando outras localidades
